@@ -19,6 +19,10 @@ class Proxy
   end
 
   # WRITE CODE HERE
+  def method_missing(method_sym, *arguments, &block)  #   This requires more detailed study
+  
+  end
+    
 end
 
 # The proxy object should pass the following Koan:
